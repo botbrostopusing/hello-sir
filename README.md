@@ -1,4 +1,4 @@
-
+if game.PlaceId == 10492057600 then
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "RAISE A SILLY CAT CUSTON SOUND!!!!", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
