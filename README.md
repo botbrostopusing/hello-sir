@@ -54,3 +54,6 @@ game:GetService("ReplicatedStorage").Events.changeSong:FireServer(unpack(args))
 
   	end    
 })
+
+
+OrionLib:Init()
