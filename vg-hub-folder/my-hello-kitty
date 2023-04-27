@@ -91,7 +91,7 @@ wait(1)
 end
 
 
-local function RUN()
+local function eee()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Cafe["Door Light 02"].Part1CanCollide.Position)
 end
 
@@ -125,16 +125,17 @@ spawn(
 )
 end)
 
-local Toggle1 = Section1:CreateToggle("Auto escape kuromi spooky", Settings.E, function(State)
-Settings.E = State
+local Toggle1 = Section1:CreateToggle("Auto escape kuromi spooky", Settings.EE, function(State)
+Settings.EE = State
 spawn(
     function()
-        while wait() and Settings.E do
-            wait(Settings.E)
+        while wait() and Settings.EE do
+            wait(Settings.EE)
             pcall(
                 function()
                   
-                  RUN()
+                 eee()
+
                 end
             )
         end
