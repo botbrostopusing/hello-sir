@@ -124,7 +124,7 @@ getgenv().Games = {
     [9224601490] = "https://raw.githubusercontent.com/1201for/V.G-Hub/main/Games/FruitBattleGrounds",
     [6679968919] = "https://raw.githubusercontent.com/1201for/V.G-Hub-Part-3/main/Fly-Race",
     [10320676839] = "https://raw.githubusercontent.com/1201for/V.G-Hub/main/Project-XXL"
-    [11323576474] = "https://raw.githubusercontent.com/botbrostopusing/hello-sir/main/vg-hub-folder/my-hello-kitty"
+    [11323576374] = "https://raw.githubusercontent.com/botbrostopusing/hello-sir/main/vg-hub-folder/my-hello-kitty"
 }
 
 getgenv().Unknown = {
